@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Four</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+   <form>
+    <label for="text">Name:</label>
+    <br/>
+    <input type="text" id="text" name="name">
+    <br />
+    <label for="email">Email:</label>
+    <br/>
+    <input type="email" id="email" name="email">
+    <br />
+    <label for="phone">Phone:</label>
+    <br/>
+    <input type="tel" id="phone" name="phone">
+    <br />
+    <br />
+    <label for="fileupload">Resume: </label>
+    <input type="file" id="fileupload" name="fileupload">
+    <br />
+    <br />
+    <label for="counter">Experiance in years: </label>
+    <input type="number" id="counter" name="counter" min="0" max="50">
+    <fieldset>
+        <legend>Skills</legend>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        <br />
+        <label for="checkbox1">HTML</label>
+        <br />
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+        <br />
+        <label for="checkbox2">CSS</label>
+        <br />
+        <input type="checkbox" name="checkbox3" id="checkbox3">
+        <br />
+        <label for="checkbox3">JavaScript</label>    
+    </fieldset>
+    <br />
+    <label for="educationType">Highest Education</label>
+    <select name="educationType" id="educationType">
+        <option value="Bachelors">Bachelors</option>
+        <option value="Masters">Masters</option>
+        <option value="Ph.D">Ph.D</option>
+        <option value="Post Doctoral">Post Doctoral</option>
+    </select>
+    <br/>
+     <fieldset>
+         <legend>Availability</legend>
+         <label for="radio1">Full-time</label>
+         <input type="radio" name="radio" value="radio1">
+         <br/>
+         <br/>
+         <label for="radio2">Part-time</label>
+         <input type="radio" name="radio" value="radio2">
+         <br/>
+         <br/>
+         <label for="radio3">Contractual</label>
+         <input type="radio" name="radio" value="radio3">
+         <br/>
+     </fieldset>
+     <br/>
+     <label for="textarea1">Additional Comments</label>
+     <br/>
+     <textarea name="textarea1" id="textarea1" rows="4" cols="30"></textarea>
+     <br/>
+            
+        
+   </form> 
+</body>
+</html>
+
